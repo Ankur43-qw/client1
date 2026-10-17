@@ -21,7 +21,7 @@ import { BUSINESS_CONFIG } from "@/config/business";
 export const metadata: Metadata = {
   title: "CIDCO Property Documentation & Transfer Services in Nashik | Master Multi Services",
   description:
-    "Expert CIDCO property documentation, property transfer, lease deed drafting, family settlement, and NOC in Lekha Nagar, CIDCO Nashik (422009). 20+ years local experience.",
+    "Expert CIDCO property documentation, property transfer, lease deed drafting, family settlement, and NOC in Lekha Nagar, CIDCO Nashik (422009). Call today.",
   keywords: [
     "CIDCO property transfer Nashik",
     "CIDCO documentation Lekha Nagar",

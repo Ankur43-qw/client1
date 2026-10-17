@@ -19,7 +19,7 @@ import { BUSINESS_CONFIG } from "@/config/business";
 export const metadata: Metadata = {
   title: "Kharedi Khat (खरेदीखत), Rent Agreement & Property Registration in CIDCO Nashik",
   description:
-    "Expert legal drafting of Kharedi Khat (Sale Deed), registered rent agreements (भाडेकरार), Sathekhat, and Sub-Registrar registration in Lekha Nagar, CIDCO Nashik.",
+    "Drafting of Kharedi Khat (Sale Deed), registered rent agreements (भाडेकरार), Sathekhat & Sub-Registrar registration in Lekha Nagar, CIDCO Nashik 422009.",
   keywords: [
     "Kharedi Khat Nashik",
     "खरेदीखत नाशिक",

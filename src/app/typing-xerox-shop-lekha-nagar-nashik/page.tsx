@@ -21,7 +21,7 @@ import { BUSINESS_CONFIG } from "@/config/business";
 export const metadata: Metadata = {
   title: "Marathi & English Typing, Xerox & Printing Shop in Lekha Nagar, CIDCO Nashik",
   description:
-    "Speed Marathi & English typing, instant WhatsApp PDF document printing, high clarity B&W / colour Xerox, scanning, and form filling at Master Multi Services, Lekha Nagar CIDCO Nashik.",
+    "Speed Marathi & English typing, instant WhatsApp PDF printing, B&W and colour Xerox, scanning, and form filling at Master Multi Services in CIDCO Nashik.",
   keywords: [
     "Marathi typing shop Lekha Nagar",
     "English typing CIDCO Nashik",

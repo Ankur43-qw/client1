@@ -21,7 +21,7 @@ import { BUSINESS_CONFIG } from "@/config/business";
 export const metadata: Metadata = {
   title: "Notary Services, Affidavit Preparation & Application Drafting in CIDCO Nashik",
   description:
-    "Instant Affidavit drafting (प्रतिज्ञापत्र), advocate notary attestation, indemnity bonds, and official government representation letters in Lekha Nagar, CIDCO Nashik 422009.",
+    "Affidavit drafting (प्रतिज्ञापत्र), advocate notary attestation, indemnity bonds & official applications in Lekha Nagar, CIDCO Nashik 422009. Call today.",
   keywords: [
     "Notary services CIDCO Nashik",
     "Affidavit preparation Lekha Nagar",

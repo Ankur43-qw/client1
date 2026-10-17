@@ -31,11 +31,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(BUSINESS_CONFIG.siteUrl),
   title: {
-    default: "Master Multi Services – Property Documentation, Kharedi Khat & Typing Xerox in Lekha Nagar, CIDCO Nashik",
-    template: "%s | Master Multi Services Nashik",
+    default: "Master Multi Services – Property Documentation & Xerox in CIDCO Nashik",
+    template: "%s",
   },
   description:
-    "Master Multi Services in Savata Nagar, Lekha Nagar, CIDCO Nashik (422009). 20+ years of expertise in Kharedi Khat (खरेदीखत), CIDCO property transfer, registered rent agreements (भाडेकरार), notary, affidavit preparation, Marathi/English typing, and Xerox.",
+    "Master Multi Services, Savata Nagar, Lekha Nagar, CIDCO Nashik (422009). 20+ yrs in Kharedi Khat (खरेदीखत), CIDCO transfer, rent agreements, notary & Xerox.",
   keywords: [
     "Master Multi Services Nashik",
     "CIDCO property documentation Nashik",
