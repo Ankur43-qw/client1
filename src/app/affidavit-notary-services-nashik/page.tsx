@@ -165,7 +165,7 @@ export default function AffidavitNotaryPage() {
               className="touch-target px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded-xl text-xs font-bold flex items-center gap-1.5"
             >
               <Phone className="w-3.5 h-3.5" />
-              <span>Call for 15-Min Walk-In Drafting</span>
+              <span>Call for Walk-In Drafting</span>
             </a>
           </div>
         </section>

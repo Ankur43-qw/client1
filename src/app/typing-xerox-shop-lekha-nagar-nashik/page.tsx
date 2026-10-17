@@ -149,7 +149,7 @@ export default function TypingXeroxPage() {
               className="touch-target px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded-xl text-xs font-bold flex items-center gap-1.5"
             >
               <Phone className="w-3.5 h-3.5" />
-              <span>Call for Typing Turnaround</span>
+              <span>Call for Typing Inquiry</span>
             </a>
           </div>
         </section>
@@ -163,7 +163,7 @@ export default function TypingXeroxPage() {
             Fast Black & White Xerox, Colour Xerox & Bulk Photocopy in CIDCO Nashik
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6">
-            Equipped with modern commercial heavy-duty digital multi-function copiers, we ensure rapid turnarounds whether you need a single Aadhaar card copy or 1,000 pages for a society AGM.
+            Equipped with modern commercial heavy-duty digital multi-function copiers, we ensure high clarity and neat output whether you need a single Aadhaar card copy or 1,000 pages for a society AGM.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
@@ -205,7 +205,7 @@ export default function TypingXeroxPage() {
               How the WhatsApp Print Service Works:
             </h3>
             <ol className="text-xs sm:text-sm text-emerald-950 space-y-2 list-decimal pl-5">
-              <li>Open WhatsApp and send your PDF, photo, or doc to <strong>+91 98765 43210</strong>.</li>
+              <li>Open WhatsApp and send your PDF, photo, or doc to <strong>+91 81494 85192</strong>.</li>
               <li>Specify print requirements: e.g., <em>&quot;2 copies B/W back-to-back&quot;</em> or <em>&quot;1 copy Colour on bond paper&quot;</em>.</li>
               <li>Walk into our shop at Savata Nagar, Lekha Nagar and pick up your documents immediately.</li>
             </ol>

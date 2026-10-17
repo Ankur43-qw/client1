@@ -240,7 +240,7 @@ export default function HomePage() {
               className="touch-target inline-flex items-center gap-2 px-5 py-3 bg-white text-emerald-800 hover:bg-emerald-50 active:scale-95 rounded-xl font-bold text-xs sm:text-sm shadow-md transition-all"
             >
               <MessageCircle className="w-5 h-5 fill-emerald-700 text-white" />
-              <span>Send Document to WhatsApp (+91 98765 43210)</span>
+              <span>Send Document to WhatsApp (+91 81494 85192)</span>
             </a>
           </div>
         </div>
@@ -288,10 +288,7 @@ export default function HomePage() {
                 className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div>
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <span className="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-700 text-[11px] font-bold">
-                      {service.turnaroundTime}
-                    </span>
+                  <div className="flex items-start justify-end gap-2 mb-2 min-h-[22px]">
                     {service.popular && (
                       <span className="px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-[10px] font-bold">
                         Most Requested
@@ -372,10 +369,7 @@ export default function HomePage() {
                 className="bg-white p-4 rounded-2xl border border-slate-200 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div>
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 text-[10px] font-bold">
-                      {service.turnaroundTime}
-                    </span>
+                  <div className="flex items-center justify-end mb-2 min-h-[22px]">
                     {service.popular && (
                       <span className="px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-[10px] font-bold">
                         Fast Track
@@ -437,10 +431,7 @@ export default function HomePage() {
                 className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div>
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="px-2.5 py-1 rounded-lg bg-purple-50 text-purple-700 text-[11px] font-bold">
-                      {service.turnaroundTime}
-                    </span>
+                  <div className="flex items-center justify-end mb-2 min-h-[22px]">
                     {service.popular && (
                       <span className="px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-[10px] font-bold">
                         Popular

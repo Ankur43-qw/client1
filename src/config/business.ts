@@ -7,7 +7,6 @@ export interface ServiceItem {
   route: string;
   shortDesc: string;
   longDesc: string;
-  turnaroundTime: string;
   requiredDocs: string[];
   icon: string;
   popular?: boolean;
@@ -70,9 +69,9 @@ export const BUSINESS_CONFIG: BusinessConfig = {
   tagline: "Property Documentation | Government Services | Typing & Xerox",
   experienceBadge: "20+ Years of Property Documentation Experience",
   yearsOfExperience: 20,
-  phoneDisplay: "+91 98765 43210",
-  phoneTel: "+919876543210",
-  whatsappNumber: "919876543210",
+  phoneDisplay: "+91 81494 85192",
+  phoneTel: "+918149485192",
+  whatsappNumber: "918149485192",
   whatsappMsgGeneral: "Hello Master Multi Services (Lekha Nagar, Nashik), I want to inquire about your documentation / typing services.",
   whatsappMsgPrint: "Hello Master Multi Services, I want to send a document PDF on WhatsApp for printing / Xerox at your Lekha Nagar shop.",
   address: {
@@ -155,7 +154,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/cidco-property-documentation-nashik",
       shortDesc: "Accurate drafting and procedural assistance for long-term CIDCO and private property lease deeds.",
       longDesc: "Complete legal drafting of long-term lease deed agreements for residential, commercial, and industrial plots in CIDCO Nashik and surrounding MIDC zones.",
-      turnaroundTime: "1 to 2 Working Days",
       requiredDocs: ["Allotment Letter", "Identity Proof (Aadhaar/PAN)", "Previous Lease Deed Copy", "Property Tax Receipt"],
       icon: "FileCheck",
       popular: true
@@ -169,7 +167,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/kharedi-khat-rent-agreement-nashik",
       shortDesc: "Government-compliant Leave & License agreements with biometric verification or quick notary stamping.",
       longDesc: "End-to-end drafting of Registered Rent Agreements (e-Registration) and Notarized Rent Agreements for tenants and landlords in Lekha Nagar, Savata Nagar, CIDCO, and Ambad.",
-      turnaroundTime: "Same Day / 24 Hours",
       requiredDocs: ["Owner Aadhaar & PAN Card", "Tenant Aadhaar & PAN Card", "Electricity Bill / Index II", "2 Witnesses with Aadhaar"],
       icon: "Home",
       popular: true
@@ -183,7 +180,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/affidavit-notary-services-nashik",
       shortDesc: "Official advocate notary attestation for affidavits, agreements, bonds, and declarations.",
       longDesc: "Quick advocate notary stamping and signature attestation for all legal documents, stamp paper declarations, educational forms, and address verifications.",
-      turnaroundTime: "15 to 30 Minutes (Walk-in)",
       requiredDocs: ["Original Photo ID Proof", "Document to be Notarized", "Stamp Paper (if required)"],
       icon: "ShieldCheck",
       popular: true
@@ -197,7 +193,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/kharedi-khat-rent-agreement-nashik",
       shortDesc: "Precision legal drafting of Kharedi Khat for flats, row houses, plots, and commercial shops.",
       longDesc: "Specialized drafting of Sale Deed (खरेदीखत) in pure legal Marathi and English adhering to Maharashtra Stamp Act and Sub-Registrar norms in Nashik.",
-      turnaroundTime: "1 to 2 Working Days",
       requiredDocs: ["7/12 Extract / Property Card / CIDCO Allotment", "Sanctioned Plan", "Previous Chain Deeds / Index II", "Buyer & Seller KYC"],
       icon: "ScrollText",
       popular: true
@@ -211,7 +206,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/cidco-property-documentation-nashik",
       shortDesc: "Procedural file preparation for CIDCO leasehold property ownership transfer and documentation.",
       longDesc: "Complete guidance for CIDCO property transfer documentation, transfer applications, death-case succession transfer, and file submission in CIDCO Nashik office.",
-      turnaroundTime: "2 to 3 Working Days for Documentation",
       requiredDocs: ["CIDCO Final Order Copy", "Allotment Letter", "NOC from Society", "Death Certificate / Heirship (if applicable)"],
       icon: "Landmark",
       popular: true
@@ -225,7 +219,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/kharedi-khat-rent-agreement-nashik",
       shortDesc: "Legally binding agreement to sell safeguarding advance earnest money and payment terms.",
       longDesc: "Comprehensive drafting of Sathekhat (Agreement to Sell / Isar Pavti) detailing token money, installment schedules, possession dates, and default penalty clauses.",
-      turnaroundTime: "Same Day or 24 Hours",
       requiredDocs: ["Title Documents of Property", "Token Payment Proof (Cheque/UTR)", "Buyer & Seller Aadhaar/PAN"],
       icon: "FileSignature",
       popular: true
@@ -239,7 +232,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/cidco-property-documentation-nashik",
       shortDesc: "Family partition deeds, release deeds (हक्कसोड), and mutual gift deed drafting.",
       longDesc: "Drafting of family settlement deeds, release deeds (हक्कसोडपत्र), and succession partition deeds for clean transfer among family members without future disputes.",
-      turnaroundTime: "1 to 2 Working Days",
       requiredDocs: ["Pedhinama / Family Tree", "Property Documents", "All Family Members' Consent & ID Proofs"],
       icon: "UsersRound",
       popular: false
@@ -253,7 +245,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/kharedi-khat-rent-agreement-nashik",
       shortDesc: "Step-by-step assistance for token booking, challan generation, and Sub-Registrar appointment.",
       longDesc: "Filing online data entry (PDE), stamp duty and registration fee challan payments via GRAS portal, and appointment scheduling for registration at Nashik Sub-Registrar offices.",
-      turnaroundTime: "Same Day Assistance",
       requiredDocs: ["Drafted Deed", "Stamp Duty Payment Challan", "Buyer & Seller Photos & Aadhaar", "Witness Details"],
       icon: "Stamp",
       popular: false
@@ -267,7 +258,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/cidco-property-documentation-nashik",
       shortDesc: "Drafting applications for CIDCO NOC for mortgage loan, resale, and title clearance.",
       longDesc: "Preparation of application files, affidavits, indemnity bonds, and compliance documents for obtaining CIDCO NOC required by nationalized banks and housing finance companies.",
-      turnaroundTime: "1 Working Day",
       requiredDocs: ["CIDCO Property Card", "Loan Sanction Letter (if bank loan)", "Allotment Letter Copy"],
       icon: "ShieldAlert",
       popular: false
@@ -283,7 +273,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/typing-xerox-shop-lekha-nagar-nashik",
       shortDesc: "High-speed and error-free typing in Unicode Marathi (Shivaji/Mangal font) and professional English.",
       longDesc: "Specialized typing of government applications, court notices, agreements, letters, project reports, and legal notices with accurate Devanagari grammar and typography.",
-      turnaroundTime: "Instant Walk-in / While You Wait",
       requiredDocs: ["Handwritten Draft or Audio/Photo of Text"],
       icon: "Keyboard",
       popular: true
@@ -295,9 +284,8 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       category: "typing",
       categoryName: "Typing, Printing & Xerox",
       route: "/typing-xerox-shop-lekha-nagar-nashik",
-      shortDesc: "Send your PDF, ticket, or form on WhatsApp (+91 98765 43210) and collect printout instantly.",
+      shortDesc: "Send your PDF, ticket, or form on WhatsApp (+91 81494 85192) and collect printout instantly.",
       longDesc: "Zero-wait print service for Lekha Nagar & CIDCO residents. Send PDF, Aadhaar card, hall ticket, or bio-data directly to our WhatsApp and collect laser print immediately.",
-      turnaroundTime: "Under 2 Minutes",
       requiredDocs: ["PDF or High-Resolution Image via WhatsApp"],
       icon: "Printer",
       popular: true
@@ -311,7 +299,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/typing-xerox-shop-lekha-nagar-nashik",
       shortDesc: "Sharp, high-clarity black and white photocopies on heavy 75 GSM paper.",
       longDesc: "High-speed commercial Xerox for single sheets, ID cards (Aadhaar/PAN back-to-back), property 7/12 extracts, and document duplicate sets.",
-      turnaroundTime: "Instant Walk-in",
       requiredDocs: ["Original Documents to copy"],
       icon: "Copy",
       popular: true
@@ -325,7 +312,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/typing-xerox-shop-lekha-nagar-nashik",
       shortDesc: "Vibrant and true-to-life color photocopies for maps, certificates, drawings, and photos.",
       longDesc: "Precision color reproduction for CIDCO layout maps, building plans, property registry maps, school certificates, mark sheets, and colored official circulars.",
-      turnaroundTime: "Instant Walk-in",
       requiredDocs: ["Original Color Document or PDF"],
       icon: "Sparkles",
       popular: false
@@ -339,7 +325,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/typing-xerox-shop-lekha-nagar-nashik",
       shortDesc: "High-resolution 300/600 DPI scanning with multi-page PDF compilation and email/WhatsApp sharing.",
       longDesc: "High-speed flatbed & feeder scanning to create compact, clear PDF bundles of property file history, KYC documents, court files, and online portal uploads.",
-      turnaroundTime: "5 to 10 Minutes",
       requiredDocs: ["Physical Documents to Scan"],
       icon: "ScanLine",
       popular: false
@@ -352,8 +337,7 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       categoryName: "Typing, Printing & Xerox",
       route: "/typing-xerox-shop-lekha-nagar-nashik",
       shortDesc: "Economical bulk photocopying rates for schools, societies, builders, and college students.",
-      longDesc: "Discounted bulk Xerox runs for housing society meeting booklets, CIDCO redevelopment files, study material, and project dossiers with fast turnarounds.",
-      turnaroundTime: "Same Day for up to 2,000 pages",
+      longDesc: "Discounted bulk Xerox runs for housing society meeting booklets, CIDCO redevelopment files, study material, and project dossiers.",
       requiredDocs: ["Master Copy or Digital PDF"],
       icon: "Layers",
       popular: false
@@ -367,7 +351,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/typing-xerox-shop-lekha-nagar-nashik",
       shortDesc: "Error-free form filling for recruitment, government portals, scholarship, and exams.",
       longDesc: "Assistance with photo/signature resizing, certificate uploads, and error-free submission on Maharashtra government and central online recruitment portals.",
-      turnaroundTime: "20 to 30 Minutes",
       requiredDocs: ["Applicant KYC, Marksheets & Passport Photo"],
       icon: "Laptop",
       popular: false
@@ -381,7 +364,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/typing-xerox-shop-lekha-nagar-nashik",
       shortDesc: "Layout alignment, margin setting, Marathi-English translation alignment, and font adjustments.",
       longDesc: "Expert legal formatting to ensure documents fit exactly onto non-judicial stamp papers (₹100/₹500) leaving proper margins for notary and registration stamps.",
-      turnaroundTime: "15 to 30 Minutes",
       requiredDocs: ["Rough draft or file needing formatting"],
       icon: "FileText",
       popular: false
@@ -397,7 +379,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/affidavit-notary-services-nashik",
       shortDesc: "Formal Marathi representation letters and petitions for Nashik Municipal Corporation and CIDCO.",
       longDesc: "Drafting official Marathi letters with precise administrative terminology for property tax corrections, water connection transfer, name change, and street issues.",
-      turnaroundTime: "30 to 60 Minutes",
       requiredDocs: ["Consumer Number / Property Tax Bill / Matter Details"],
       icon: "Mail",
       popular: true
@@ -411,7 +392,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/affidavit-notary-services-nashik",
       shortDesc: "Ready-to-sign affidavits for name change, address proof, education gap, and income declaration.",
       longDesc: "Drafting and stamp printing of Affidavits in English and Marathi: Name Discrepancy (नाव बदलाचे शपथपत्र), Address Proof, Education Gap, Unmarried Declaration, and Lost Document Affidavits.",
-      turnaroundTime: "20 to 30 Minutes",
       requiredDocs: ["Aadhaar Card", "Relevant proof (Leaving certificate / Gazette / Police complaint)"],
       icon: "FileCheck2",
       popular: true
@@ -425,7 +405,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/affidavit-notary-services-nashik",
       shortDesc: "Tailored agreements for vehicle sale, partnership, shop license, and loan guarantees.",
       longDesc: "Clear and enforceable agreement drafting for two-wheeler/car sale agreements, personal loan acknowledgment, worker agreements, and private tenancy MoUs.",
-      turnaroundTime: "Same Day / 2 to 4 Hours",
       requiredDocs: ["Both Parties' KYC", "Terms & Conditions details"],
       icon: "Handshake",
       popular: false
@@ -439,7 +418,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/affidavit-notary-services-nashik",
       shortDesc: "Preparation of reply notices, declarations, boundary declarations, and power of attorney drafts.",
       longDesc: "Drafting General Power of Attorney (कुलमुखत्यारपत्र), Special Power of Attorney, public notices, and legal compliance declarations for local residents.",
-      turnaroundTime: "1 Working Day",
       requiredDocs: ["Principal & Agent KYC", "Property / Subject details"],
       icon: "Briefcase",
       popular: false
@@ -453,7 +431,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/affidavit-notary-services-nashik",
       shortDesc: "One-stop consultation to check document completeness before government office visits.",
       longDesc: "Friendly, experienced consultation to verify document checklists before visiting CIDCO administrative office, Collector Office Nashik, or NMC Ward office.",
-      turnaroundTime: "Instant Walk-in Consultation",
       requiredDocs: ["All available document photocopies"],
       icon: "HelpCircle",
       popular: false
@@ -467,7 +444,6 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       route: "/affidavit-notary-services-nashik",
       shortDesc: "Specialized indemnity bonds required by CIDCO, MSEDCL, and banks for duplicate documents.",
       longDesc: "Standard format preparation of Indemnity Bonds on requisite non-judicial stamp papers for missing duplicate allotment letters, electricity meter transfer, and bank claim settlements.",
-      turnaroundTime: "30 to 45 Minutes",
       requiredDocs: ["Bank / Department format requirements", "Applicant Aadhaar & PAN", "2 Guarantors KYC"],
       icon: "FileLock",
       popular: false
@@ -482,7 +458,7 @@ export const BUSINESS_CONFIG: BusinessConfig = {
     {
       question: "Can I send documents on WhatsApp for instant printout without waiting in line?",
       marathiQuestion: "मी गर्दी टाळण्यासाठी व्हॉट्सॲपवर पीडीएफ पाठवून थेट प्रिंट घेऊ शकतो का?",
-      answer: "Yes! Simply send your PDF, Aadhaar card, hall ticket, or document photo to our WhatsApp (+91 98765 43210). We will keep your printout ready for immediate pickup when you arrive at our Lekha Nagar shop."
+      answer: "Yes! Simply send your PDF, Aadhaar card, hall ticket, or document photo to our WhatsApp (+91 81494 85192). We will keep your printout ready for immediate pickup when you arrive at our Lekha Nagar shop."
     },
     {
       question: "What types of property documentation services do you provide in CIDCO Nashik?",
@@ -490,14 +466,14 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       answer: "With 20+ years of local experience, we specialize in Kharedi Khat (खरेदीखत / Sale Deed), CIDCO property transfer documentation, Registered & Notarized Rent Agreements (भाडेकरार), Sathekhat (साठेखत), Lease Deeds, Family Partition (वाटपपत्र), and CIDCO NOC files."
     },
     {
-      question: "How long does it take to prepare an Affidavit (प्रतिज्ञापत्र) or Notary?",
-      marathiQuestion: "प्रतिज्ञापत्र किंवा नोटरी करण्यासाठी किती वेळ लागतो?",
-      answer: "Standard affidavits (Name change, Address proof, Gap certificate, Income declaration) and advocate notary attestations are typically prepared within 15 to 30 minutes on a walk-in basis at our shop."
+      question: "How do I prepare an Affidavit (प्रतिज्ञापत्र) or Notary?",
+      marathiQuestion: "प्रतिज्ञापत्र किंवा नोटरी करण्याची प्रक्रिया काय आहे?",
+      answer: "Standard affidavits (Name change, Address proof, Gap certificate, Income declaration) and advocate notary attestations are prepared on a walk-in basis at our shop."
     },
     {
       question: "What are your shop working hours in Lekha Nagar, CIDCO?",
       marathiQuestion: "तुमच्या दुकानाची वेळ काय आहे?",
-      answer: "We are open Monday to Saturday from 9:00 AM to 6:30 PM. We are closed on Sundays. For urgent inquiries or advance document review, you can contact us anytime via WhatsApp."
+      answer: "We are open Monday to Saturday from 9:00 AM to 6:30 PM. We are closed on Sundays. For inquiries or advance document review, you can contact us anytime via WhatsApp."
     }
   ],
   cidcoFaqs: [
@@ -539,9 +515,9 @@ export const BUSINESS_CONFIG: BusinessConfig = {
       answer: "Sathekhat is the preliminary agreement executed when paying advance/token earnest money for property. It specifies payment timelines, balance consideration, possession date, and legal conditions before the final Kharedi Khat is registered."
     },
     {
-      question: "Can rent agreement biometric verification be done quickly in CIDCO Nashik?",
-      marathiQuestion: "सिडको नाशिकमध्ये भाडेकराराची बायोमेट्रिक नोंदणी लवकर होते का?",
-      answer: "Yes, we arrange prompt registered rent agreements with biometric Aadhaar verification for both owner and tenant, minimizing turnaround time to 24 hours."
+      question: "Can rent agreement biometric verification be done in CIDCO Nashik?",
+      marathiQuestion: "सिडको नाशिकमध्ये भाडेकराराची बायोमेट्रिक नोंदणी होते का?",
+      answer: "Yes, we arrange prompt registered rent agreements with biometric Aadhaar verification for both owner and tenant."
     }
   ],
   typingXeroxFaqs: [
@@ -553,7 +529,7 @@ export const BUSINESS_CONFIG: BusinessConfig = {
     {
       question: "What is the WhatsApp PDF printing process at your Lekha Nagar shop?",
       marathiQuestion: "व्हॉट्सॲपवरून प्रिंटिंग करण्याची पद्धत काय आहे?",
-      answer: "Simply WhatsApp your file to +91 98765 43210 with your name and print preference (Colour or B/W, single or double sided). You can walk in and collect it immediately without waiting."
+      answer: "Simply WhatsApp your file to +91 81494 85192 with your name and print preference (Colour or B/W, single or double sided). You can walk in and collect it immediately without waiting."
     },
     {
       question: "Do you provide bulk photocopying services for housing societies or institutions?",

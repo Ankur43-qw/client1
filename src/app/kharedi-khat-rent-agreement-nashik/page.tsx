@@ -184,7 +184,7 @@ export default function KharediRentAgreementPage() {
                 <li>• Legally recognized for police verification & passport address proof.</li>
                 <li>• Biometric Aadhaar thumb verification for owner and tenant.</li>
                 <li>• Official Maharashtra Government IGR registered Index II copy issued.</li>
-                <li>• Turnaround: 24 to 48 Hours with complete digital processing.</li>
+                <li>• Complete online registration and document assistance.</li>
               </ul>
             </div>
 
@@ -199,7 +199,7 @@ export default function KharediRentAgreementPage() {
                 <li>• Formatted on ₹100 or ₹500 non-judicial stamp paper.</li>
                 <li>• Attested with advocate notary seal and signature.</li>
                 <li>• Ideal for company HR rent allowance (HRA), college admissions, and local utility.</li>
-                <li>• Turnaround: Same-day walk-in service (under 30 minutes).</li>
+                <li>• Walk-in drafting and immediate advocate attestation.</li>
               </ul>
             </div>
           </div>
