@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-jakarta: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-noto-devanagari: 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  color: #0f172a;
+  background-color: #f8fafc;
+  font-family: var(--font-jakarta), var(--font-noto-devanagari), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Devanagari text enhancement */
+.font-marathi {
+  font-family: var(--font-noto-devanagari), var(--font-jakarta), system-ui, sans-serif;
+}
+
+/* Soft ambient mesh background - low contrast, zero heavy JS, optimized for mobile battery */
+.bg-ambient-mesh {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(219, 234, 254, 0.5) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(220, 252, 231, 0.4) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(254, 243, 199, 0.4) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Safe touch target helper for 15k mobile phones */
+.touch-target {
+  min-height: 48px;
+  min-width: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Accordion styling for <details> */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
